@@ -1,0 +1,11 @@
+.DS_Store
+node_modules
+src/types/
+
+#Buidler files
+cache
+artifacts
+
+#Coverage
+coverage
+coverage.json
