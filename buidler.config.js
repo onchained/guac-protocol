@@ -1,4 +1,7 @@
+// import { usePlugin, task } from "@nomiclabs/buidler/config";
+usePlugin("@nomiclabs/buidler-ethers");
 usePlugin("@nomiclabs/buidler-waffle");
+usePlugin("buidler-typechain");
 
 // This is a sample Buidler task. To learn how to create your own go to
 // https://buidler.dev/guides/create-task.html
@@ -18,5 +21,9 @@ module.exports = {
   // This is a sample solc configuration that specifies which version of solc to use
   solc: {
     version: "0.6.8",
+  },
+  typechain: {
+    outDir: "./src/types",
+    target: "ethers-v4",
   },
 };
