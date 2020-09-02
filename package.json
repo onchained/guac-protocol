@@ -25,14 +25,23 @@
     "ethers": "^5.0.9",
     "ts-node": "^9.0.0",
     "typechain": "^2.0.0",
-    "typescript": "^4.0.2"
-  },
-  "dependencies": {
+    "typescript": "^4.0.2",
+    "@nomiclabs/buidler-etherscan": "^1.3.3",
+    "@nomiclabs/buidler-truffle5": "^1.3.4",
+    "@nomiclabs/buidler-web3": "^1.3.4",
     "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-helpers": "^0.5.6",
     "@typechain/truffle-v4": "^2.0.3",
     "@typechain/truffle-v5": "^2.0.2",
     "@typechain/web3-v1": "^1.0.0",
-    "buidler-typechain": "^0.1.1",
-    "ts-generator": "0.0.8"
+    "@types/react": "^16.9.44",
+    "buidler-typechain": "0.1.1",
+    "buidler-web3": "0.0.1",
+    "husky": "^4.2.5",
+    "solidity-coverage": "^0.7.9",
+    "ts-generator": "0.0.8",
+    "web3": "^1.2.11"
+  },
+  "dependencies": {
   }
 }
